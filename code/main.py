@@ -23,7 +23,7 @@ index_page:str = """
     <title>Bookmark Server</title>
 </head>
 <body>
-    <form action="http://localhost:8000" method="post">
+    <form action="/" method="post">
         <label for="shortname">
             short name
             <input type="text" name="shortname" id="shortname" >
@@ -62,7 +62,7 @@ page_404:str = """
         <button onclick="goto_index()">Back to Home page</button>
         <script>
             function goto_index(){{
-                location.replace("http://localhost:8000")
+                location.replace("/")
             }}
         </script>
     </body>
@@ -85,7 +85,7 @@ page_400:str = """
         <script>
             function goto_index()
             {{
-                location.replace(url="http://localhost:8000")
+                location.replace(url="/")
             }}
         </script>
     </bod>
