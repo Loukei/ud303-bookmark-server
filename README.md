@@ -1,6 +1,10 @@
 # ud303_Bookmark_Server
 A simple URL shortener server,  project from Udacity course (ud303).
 
+## Demo
+
+- [Bookmark Server](https://ud303-bookmark-server-loukei.herokuapp.com/)
+
 ## Bug tracks
 
 ### Q: fatal: 'heroku' does not appear to be a git repository
@@ -22,3 +26,5 @@ A simple URL shortener server,  project from Udacity course (ud303).
 Make sure all `requirements.tx`, `Procfile`, `runtime.tx` in root folder.
 Check `Procfile` after you change `main.py` location.
 Then push to heroku again.
+
+## Q:How to set environment root path when server code deployee to cloud?
