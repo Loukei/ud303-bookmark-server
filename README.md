@@ -3,7 +3,9 @@ A simple URL shortener server,  project from Udacity course (ud303).
 
 ## Demo
 
-- [Bookmark Server](https://ud303-bookmark-server-loukei.herokuapp.com/)
+- [Bookmark Server](https://ud303-loukei-bookmarksever.herokuapp.com/)
+
+---
 
 ## Bug tracks
 
@@ -34,12 +36,19 @@ Then push to heroku again.
 > Current default Python Runtime: Python 3.10.4
 > Alternatively, you can provide a setup.py file, or a Pipfile. Using pipenv will generate runtime.txt at build time if one of the field python_version or python_full_version is specified in the requires section of your Pipfile.
 
-### Q:How to set environment root path when server code deployee to cloud?
+### Q: How to set environment root path when server code deployee to cloud?
 
 #### Ans
 
 Don't use any hardcode URI in any place(frontend and backend). Use `/` instaed.
 
-### Q:Use github deployee to heroku
+### Q: Use github deployee to heroku
 
 [GitHub Integration (Heroku GitHub Deploys) | Heroku Dev Center](https://devcenter.heroku.com/articles/github-integration)
+
+---
+
+## Reference
+
+- [HTTP in the Real World](https://learn.udacity.com/courses/ud303/lessons/f5e2f7c1-d0ce-4738-b985-1f70fb61817d/concepts/5529ade8-464b-4512-a733-fd25925468d8)
+- [Getting Started on Heroku with Python | Heroku Dev Center](https://devcenter.heroku.com/articles/getting-started-with-python)
